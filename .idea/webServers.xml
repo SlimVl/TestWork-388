@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="abb95072-9f9c-4e21-9459-f7b391deb0a6" name="irbis" url="http://piter5.dns-rus.net">
+        <fileTransfer accessType="FTPS" host="piter5.dns-rus.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6f7fe085-1696-4e7e-97b3-2cb5c67765fe" name="umschool.net">
+        <fileTransfer rootFolder="/usr/share/umschool" accessType="SFTP" host="ru-journal01.prod.umschool.net" port="22" sshConfigId="da217e2c-a9a6-4204-abe7-96a604652376" sshConfig="avlasov@ru-journal01.prod.umschool.net:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="40462c21-4809-4ece-8076-c9db7f892d10" name="linzar.com.ua" url="http://dp453919.ftp.tools">
+        <fileTransfer host="dp453919.ftp.tools" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a0585171-1428-403a-bec3-bbd356353369" name="list72">
+        <fileTransfer rootFolder="/var/www/list72" accessType="SFTP" host="92.255.171.95" port="8822" sshConfigId="389f4117-4db5-4f8a-94d1-3291b9c25b67" sshConfig="developer@92.255.171.95:8822 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="98ac8078-0e06-4375-ac69-18cede41790f" name="бригадирро" url="http://31.31.196.82">
+        <fileTransfer host="31.31.196.82" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
